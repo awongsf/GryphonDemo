@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<title>Gryphon Asset Management</title>
+    	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    	<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="navBar">
+			<a href="index.html"><img class="logo" src="img/logo.png"></a>
+			<div class="pageHeader">
+				<h3>&nbsp;&nbsp;&nbsp;Step 4 of 4</h3>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h2>To open an account, please provide the following information:</h2>
+			<div class="contactForm">
+				<h3>First Name:&nbsp;</h3><input type="text" name="firstName">
+				<h3>Last Name:&nbsp;</h3><input type="text" name="lastName"><br>
+				<h3>Email:&nbsp;</h3><input type="text" name="email">
+				<h3>Date Of Birth:&nbsp;</h3><input type="number" name="month" placeholder="MM" min="0" max="12" onfocus="this.placeholder=''" onblur="this.placeholder='MM'"><input type="number" name="day" placeholder="DD" min="0" max="31" onfocus="this.placeholder=''" onblur="this.placeholder='DD'"><input type="number" name="year" placeholder="YYYY" min="1900" max="2017" onfocus="this.placeholder=''" onblur="this.placeholder='YYYY'"><br>
+				<h3>Phone Number:&nbsp;</h3><input type="number" name="phoneNumber"><br>
+				<h3>Mailing Address:&nbsp;</h3><input type="text" name="address">
+			</div>
+			<a class="submitBtn" href="#">Submit</a>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="js/step4.js"></script>
+	</body>
+</html>
